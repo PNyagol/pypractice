@@ -1,3 +1,4 @@
+import math
 course = 'Python for beginners'
 print(len(course))
 print(course.upper())

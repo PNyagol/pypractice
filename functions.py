@@ -44,6 +44,6 @@ print(myage)
 
 #Weight Exercise
 
-weight_lbs = input("how much do you weigh in lbs?: ")
+weight_lbs = input("how much do you weight in lbs?: ")
 weight_kgs = int(weight_lbs) * 0.45
 print(weight_kgs)
