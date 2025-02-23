@@ -149,3 +149,61 @@ quit - to quit
 
     else:
         print("Sorry! I do not understand this.")
+
+# For Loops
+# loop over items of a collection such as characters in a string 
+
+for item in "Python":
+    print(item)
+
+# Lists and for loop
+
+for item in ["Peter Nyagol", "Joan Winga", "Edwina Asha"]:
+    print(item)
+
+# Iterate over a large list of numbers
+
+for item in range(10):
+    print(item)
+
+# start the range from a point say 5
+for item in range(5, 10):
+    print(item)
+
+
+# start the range from a point say 5 and give it intervals or steps say 2
+for item in range(5, 10, 2):
+    print(item)
+
+
+#calculate total of list items using a for loop
+
+# += is called an augmented assignment operator
+# hence total = total + price is UNIVERSALLY expressed as total += price
+
+prices = [10, 20, 30]
+total = 0
+for price in prices:
+    total += price
+print(f"Total = {total}")
+
+#Nested Loops
+# Means adding one loop inside another loop
+
+for x in range(4):
+    for y in range(3):
+        print(f"({x}, {y})")
+
+
+# Exercise
+numbers = [5, 2, 5, 2, 2]
+for number in numbers:
+    print('x' * number)
+
+#Using nested loops
+numbers = [5, 2, 5, 2, 2]
+for x_count in numbers:
+    output = ""
+    for count in range(x_count):
+        output += "x"
+        print(output)
